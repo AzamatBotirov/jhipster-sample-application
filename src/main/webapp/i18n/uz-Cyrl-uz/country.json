@@ -1,0 +1,25 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "country": {
+      "home": {
+        "title": "Countries",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Янги Country қўшиш",
+        "createOrEditLabel": "Countryни таҳрирлаш",
+        "notFound": "No Countries found"
+      },
+      "created": "Country {{ param }} билан қўшилди.",
+      "updated": "{{ param }}- Country сақланди.",
+      "deleted": "{{ param }}- Country ўчирилди.",
+      "delete": {
+        "question": "{{ id }}- Countryни ўчирмоқчимисиз? "
+      },
+      "detail": {
+        "title": "Country"
+      },
+      "id": "ID",
+      "countryName": "Country Name",
+      "region": "Region"
+    }
+  }
+}

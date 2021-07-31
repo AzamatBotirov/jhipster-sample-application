@@ -1,0 +1,26 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "department": {
+      "home": {
+        "title": "Departments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Янги Department қўшиш",
+        "createOrEditLabel": "Departmentни таҳрирлаш",
+        "notFound": "No Departments found"
+      },
+      "created": "Department {{ param }} билан қўшилди.",
+      "updated": "{{ param }}- Department сақланди.",
+      "deleted": "{{ param }}- Department ўчирилди.",
+      "delete": {
+        "question": "{{ id }}- Departmentни ўчирмоқчимисиз? "
+      },
+      "detail": {
+        "title": "Department"
+      },
+      "id": "ID",
+      "departmentName": "Department Name",
+      "location": "Location",
+      "employee": "Employee"
+    }
+  }
+}

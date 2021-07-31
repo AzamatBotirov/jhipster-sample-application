@@ -1,0 +1,36 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "employee": {
+      "home": {
+        "title": "Employees",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Янги Employee қўшиш",
+        "createOrEditLabel": "Employeeни таҳрирлаш",
+        "notFound": "No Employees found"
+      },
+      "created": "Employee {{ param }} билан қўшилди.",
+      "updated": "{{ param }}- Employee сақланди.",
+      "deleted": "{{ param }}- Employee ўчирилди.",
+      "delete": {
+        "question": "{{ id }}- Employeeни ўчирмоқчимисиз? "
+      },
+      "detail": {
+        "title": "Employee"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "hireDate": "Hire Date",
+      "salary": "Salary",
+      "commissionPct": "Commission Pct",
+      "job": "Job",
+      "manager": "Manager",
+      "department": "Department",
+      "help": {
+        "firstName": "The firstname attribute."
+      }
+    }
+  }
+}
