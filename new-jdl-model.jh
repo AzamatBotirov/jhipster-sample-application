@@ -113,3 +113,19 @@ service all with serviceImpl except Employee, Job
 
 // Set an angular suffix
 // angularSuffix * with mySuffix
+
+entity FileStorage {
+	name String
+	countryName String
+    extension String
+    fileSize Long
+    hashId String
+    contentType String
+    uploadPath String
+    fileStorageStatus FileStorageStatus
+}
+enum FileStorageStatus {
+    ACTIVE, DRAFT
+}
+
+

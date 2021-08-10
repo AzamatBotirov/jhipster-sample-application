@@ -1,0 +1,9 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "FileStorageStatus": {
+      "null": "",
+      "ACTIVE": "ACTIVE",
+      "DRAFT": "DRAFT"
+    }
+  }
+}

@@ -35,6 +35,7 @@ import TaskService from '@/entities/task/task.service';
 import EmployeeService from '@/entities/employee/employee.service';
 import JobService from '@/entities/job/job.service';
 import JobHistoryService from '@/entities/job-history/job-history.service';
+import FileStorageService from '@/entities/file-storage/file-storage.service';
 // jhipster-needle-add-entity-service-to-main-import - JHipster will import entities services here
 
 /* tslint:enable */
@@ -101,6 +102,7 @@ new Vue({
     employeeService: () => new EmployeeService(),
     jobService: () => new JobService(),
     jobHistoryService: () => new JobHistoryService(),
+    fileStorageService: () => new FileStorageService(),
     // jhipster-needle-add-entity-service-to-main - JHipster will import entities services here
     accountService: () => accountService,
   },

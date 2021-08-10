@@ -50,6 +50,12 @@ const JobHistory = () => import('@/entities/job-history/job-history.vue');
 const JobHistoryUpdate = () => import('@/entities/job-history/job-history-update.vue');
 // prettier-ignore
 const JobHistoryDetails = () => import('@/entities/job-history/job-history-details.vue');
+// prettier-ignore
+const FileStorage = () => import('@/entities/file-storage/file-storage.vue');
+// prettier-ignore
+const FileStorageUpdate = () => import('@/entities/file-storage/file-storage-update.vue');
+// prettier-ignore
+const FileStorageDetails = () => import('@/entities/file-storage/file-storage-details.vue');
 // jhipster-needle-add-entity-to-router-import - JHipster will import entities to the router here
 
 export default [
@@ -243,6 +249,30 @@ export default [
     path: '/job-history/:jobHistoryId/view',
     name: 'JobHistoryView',
     component: JobHistoryDetails,
+    meta: { authorities: [Authority.USER] },
+  },
+  {
+    path: '/file-storage',
+    name: 'FileStorage',
+    component: FileStorage,
+    meta: { authorities: [Authority.USER] },
+  },
+  {
+    path: '/file-storage/new',
+    name: 'FileStorageCreate',
+    component: FileStorageUpdate,
+    meta: { authorities: [Authority.USER] },
+  },
+  {
+    path: '/file-storage/:fileStorageId/edit',
+    name: 'FileStorageEdit',
+    component: FileStorageUpdate,
+    meta: { authorities: [Authority.USER] },
+  },
+  {
+    path: '/file-storage/:fileStorageId/view',
+    name: 'FileStorageView',
+    component: FileStorageDetails,
     meta: { authorities: [Authority.USER] },
   },
   // jhipster-needle-add-entity-to-router - JHipster will add entities to the router here

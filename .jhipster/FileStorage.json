@@ -1,0 +1,49 @@
+{
+  "name": "FileStorage",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "countryName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "extension",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fileSize",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "hashId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contentType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "uploadPath",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fileStorageStatus",
+      "fieldType": "FileStorageStatus",
+      "fieldValues": "ACTIVE,DRAFT"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "file_storage",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210803185053"
+}
